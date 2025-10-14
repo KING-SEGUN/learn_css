@@ -1,0 +1,42 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #f60009;
+    height: 500px;
+    width: 500px;
+}
+
+.first {
+    display: flex;
+    background: #53007a;
+    align-items: center;
+    justify-content: space-around;
+    order: 1;
+}
+
+.second {
+    background: #fc9709;
+}
+
+.third {
+    background: #a800df;
+    align-self: flex-end;
+}
+.forth {
+    background: #8be7e6;
+
+}
+
+.fifth {
+    background: #93b112;
+}
+.sixth {
+    background: #e6f08a;
+    order: -1;
+}  
